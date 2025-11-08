@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olabuchi Electrical Enterprises - Industrial & Residential Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; }
+        .service-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-lg sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="1000673397.png" alt="Olabuchi Logo" class="h-10 w-auto">
+                <h1 class="text-2xl font-extrabold text-blue-800">Olabuchi Electrical</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium">Services</a>
+                <a href="#projects" class="text-gray-700 hover:text-blue-600 font-medium">Projects</a>
+                <a href="#contact" class="text-white bg-amber-500 px-4 py-2 rounded-lg hover:bg-amber-600 transition duration-150 shadow-md">Get Quote</a>
+            </nav>
+            <button class="md:hidden text-gray-700 hover:text-blue-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-blue-800 text-white py-20 text-center rounded-b-xl shadow-2xl mx-2 mt-2">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-5xl font-extrabold leading-tight mb-4">
+                    Powering Progress. <span class="text-amber-400 block sm:inline">Reliably Delivered.</span>
+                </h2>
+                <p class="text-xl mb-8 font-light">
+                    Your trusted partner for certified, safe, and efficient electrical engineering solutions, from heavy industry to home wiring.
+                </p>
+                <a href="#contact" class="bg-amber-500 text-blue-900 px-8 py-3 text-lg font-bold rounded-full shadow-xl hover:bg-amber-600 transition duration-300 transform hover:scale-105 inline-block">
+                    Schedule a Consultation
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 bg-white mx-2 mt-4 rounded-xl shadow-lg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-4 text-gray-900">Expert Electrical Services</h3>
+                <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">We handle complex electrical needs with precision, safety, and adherence to all standards.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1: Industrial -->
+                    <div class="service-card bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">🏭</div>
+                        <h4 class="text-xl font-bold mb-3 text-gray-800">Industrial Wiring & Automation</h4>
+                        <p class="text-gray-600">Heavy-duty power distribution, machine wiring, and industrial control systems integration.</p>
+                    </div>
+                    <!-- Service 2: Residential -->
+                    <div class="service-card bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-amber-500">
+                        <div class="text-4xl text-amber-500 mb-4">🏠</div>
+                        <h4 class="text-xl font-bold mb-3 text-gray-800">Residential & Commercial</h4>
+                        <p class="text-gray-600">Full-home wiring, renovation electrical upgrades, lighting design, and emergency repairs.</p>
+                    </div>
+                    <!-- Service 3: Maintenance -->
+                    <div class="service-card bg-blue-50 p-6 rounded-xl shadow-md border-t-4 border-blue-600">
+                        <div class="text-4xl text-blue-600 mb-4">🛠️</div>
+                        <h4 class="text-xl font-bold mb-3 text-gray-800">Preventative Maintenance</h4>
+                        <p class="text-gray-600">Scheduled checks, fault finding, and preventative maintenance to avoid costly downtime.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16 bg-gray-100 mx-2 mt-4 rounded-xl shadow-inner">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-4 text-gray-900">Featured Projects</h3>
+                <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">A glimpse into the quality and scale of our recent work.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold text-blue-800 mb-2">Lagos Factory Power Grid Upgrade</h4>
+                            <p class="text-gray-600 mb-4">Complete overhaul of a manufacturing plant's power distribution system for improved efficiency and capacity, reducing energy waste by 15%.</p>
+                            <span class="inline-block bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full font-semibold">Industrial</span>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <h4 class="text-xl font-bold text-blue-800 mb-2">Luxe Home Smart System Integration</h4>
+                            <p class="text-gray-600 mb-4">Installation of smart home electrical systems, including automated lighting, security, and climate control for a premium residence.</p>
+                            <span class="inline-block bg-amber-100 text-amber-800 text-xs px-3 py-1 rounded-full font-semibold">Residential</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white mx-2 mt-4 rounded-xl shadow-lg mb-4">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-4 text-blue-800">Ready to Get Started?</h3>
+                <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">Fill out the form below for a free, no-obligation estimate on your next project.</p>
+
+                <form class="max-w-lg mx-auto bg-blue-50 p-8 rounded-xl shadow-xl border-t-4 border-blue-800">
+                    <div class="mb-5">
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Project Name / Contact Person</label>
+                        <input type="text" id="name" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150" placeholder="Office Wiring Upgrade" required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                        <input type="tel" id="phone" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150" placeholder="+234 (0) 80..." required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="scope" class="block text-sm font-medium text-gray-700 mb-2">Project Scope / Details</label>
+                        <textarea id="scope" rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150" placeholder="Briefly describe the scale and requirements of your electrical project."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-800 text-white font-bold py-3 rounded-lg hover:bg-blue-900 transition duration-300 shadow-md">
+                        Request a Site Visit & Quote
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>Olabuchi Electrical Enterprises | Certified, Safe, and Reliable Power Solutions.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
