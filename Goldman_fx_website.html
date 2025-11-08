@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldman FX Trading Academy - Master Forex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0d1117; } /* Dark GitHub/Trading Theme */
+        .hero-bg {
+            background-color: #161b22;
+            background-image: radial-gradient(circle at center, rgba(30, 40, 50, 0.5), rgba(0, 0, 0, 0.9));
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 158, 11, 0.4);
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-100">
+
+    <!-- Header & Navigation -->
+    <header class="bg-gray-900 shadow-xl sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="1000560820.png" alt="Goldman FX Logo" class="h-10 w-auto">
+                <h1 class="text-2xl font-black text-amber-500">Goldman FX Academy</h1>
+            </div>
+            <!-- Mobile Menu Placeholder -->
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#courses" class="text-gray-400 hover:text-amber-500 font-medium transition duration-150">Courses</a>
+                <a href="#about" class="text-gray-400 hover:text-amber-500 font-medium transition duration-150">Our Method</a>
+                <a href="#enroll" class="text-gray-900 bg-amber-500 px-4 py-2 rounded-lg hover:bg-amber-400 font-bold transition duration-150 shadow-lg">Enroll Now</a>
+            </nav>
+            <button class="md:hidden text-gray-400 hover:text-amber-500">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-bg py-24 text-center rounded-b-xl shadow-inner mx-2 mt-2 border-b border-gray-700">
+            <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-6xl font-extrabold leading-tight mb-4">
+                    Master Forex Trading. <span class="text-green-500 block sm:inline">Trade with Confidence.</span>
+                </h2>
+                <p class="text-xl mb-8 font-light text-gray-300">
+                    Learn the precise, risk-managed strategies used by professional traders. Stop guessing, start profiting.
+                </p>
+                <a href="#enroll" class="cta-button bg-amber-500 text-gray-900 px-10 py-4 text-xl font-black rounded-full shadow-2xl inline-block">
+                    Start Learning Today ➡️
+                </a>
+            </div>
+        </section>
+
+        <!-- Value Proposition Section -->
+        <section class="py-16 bg-gray-900 mx-2 mt-4 rounded-xl shadow-xl border border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-12 text-gray-50">Why Choose Goldman FX?</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg border-t-4 border-amber-500">
+                        <div class="text-5xl text-amber-500 mb-4">🧠</div>
+                        <h4 class="text-xl font-bold mb-3">Structured Curriculum</h4>
+                        <p class="text-gray-400">From beginner basics to advanced institutional trading concepts, step-by-step.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg border-t-4 border-green-500">
+                        <div class="text-5xl text-green-500 mb-4">🛡️</div>
+                        <h4 class="text-xl font-bold mb-3">Risk Management Focus</h4>
+                        <p class="text-gray-400">We prioritize capital preservation. Learn to manage risk before chasing profit.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg border-t-4 border-blue-500">
+                        <div class="text-5xl text-blue-500 mb-4">📈</div>
+                        <h4 class="text-xl font-bold mb-3">Lifetime Access</h4>
+                        <p class="text-gray-400">Get access to all future course updates and our exclusive community forums.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="py-16 mx-2 mt-4">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-4xl font-bold text-center mb-12 text-gray-50">Our Flagship Courses</h3>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Course 1 -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border border-gray-700">
+                        <span class="inline-block bg-amber-500 text-gray-900 text-xs px-3 py-1 rounded-full font-semibold mb-3">MOST POPULAR</span>
+                        <h4 class="text-3xl font-bold mb-4 text-amber-500">The Professional Trading Blueprint</h4>
+                        <ul class="space-y-3 text-gray-300 list-none pl-0">
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Advanced Technical Analysis
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Institutional Order Flow Strategies
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Psychology of Trading Mastery
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> 10+ Live Trading Session Recordings
+                            </li>
+                        </ul>
+                        <div class="mt-6">
+                            <a href="#enroll" class="bg-green-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300 inline-block cta-button">
+                                View Details & Enroll
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Course 2 -->
+                    <div class="bg-gray-800 p-8 rounded-xl shadow-2xl border border-gray-700">
+                        <span class="inline-block bg-blue-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-3">BEGINNER FRIENDLY</span>
+                        <h4 class="text-3xl font-bold mb-4 text-blue-500">Forex Foundation Kickstart</h4>
+                        <ul class="space-y-3 text-gray-300 list-none pl-0">
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Understanding Currency Pairs (Majors/Minors)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Introduction to Candlesticks and Charts
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Setting up a Demo Account Safely
+                            </li>
+                            <li class="flex items-center">
+                                <span class="text-green-500 mr-2">✓</span> Basic Risk:Reward Calculations
+                            </li>
+                        </ul>
+                        <div class="mt-6">
+                            <a href="#enroll" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 inline-block cta-button">
+                                View Details & Enroll
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enrollment/Contact Section -->
+        <section id="enroll" class="py-16 bg-gray-900 mx-2 mt-4 rounded-xl shadow-inner border border-gray-700 mb-4">
+            <div class="max-w-4xl mx-auto text-center px-4">
+                <h3 class="text-4xl font-extrabold mb-4 text-amber-500">Stop Watching. Start Trading.</h3>
+                <p class="text-lg text-gray-300 mb-8">Ready to invest in your financial future? Choose your path and gain access instantly.</p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="cta-button bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg">
+                        View All Packages
+                    </a>
+                    <a href="#" class="cta-button bg-gray-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-600">
+                        Ask a Question
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-500 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>Goldman FX Trading Academy | Disclaimer: Trading involves significant risk. Past performance is not indicative of future results.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+                                                                                  
