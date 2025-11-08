@@ -1,2 +1,1 @@
-# Multi-Client-Web-Portfolio
-​Three single-page websites (Empowered Entrepreneur, Olabuchi Electrical, Goldman FX) built with HTML and Tailwind CSS, showcasing responsive, modern web design.
+Three client websites built in single-file HTML/Tailwind CSS: Empowered Entrepreneur, Olabuchi Electrical, and Goldman FX." ​README.md: Updated with the detailed content provided earlier. ​2. Files in the Root Folder (7 Total) ​index.html (Empowered Entrepreneur code) ​olabuchi_website.html (Olabuchi Electrical code) ​goldman_fx_website.html (Goldman FX code) ​1000523426.jpg (EE Logo) ​1000673397.png (Olabuchi Logo) ​1000560820.png (Goldman FX Logo)
